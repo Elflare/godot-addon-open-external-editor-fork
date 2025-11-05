@@ -1,5 +1,6 @@
 # Open External Editor
-Forked from [godot-addon-open-external-editor](https://github.com/krayon/godot-addon-open-external-editor)
+Forked from [godot-addon-open-external-editor](https://github.com/krayon/godot-addon-open-external-editor).
+
 Fixed some critical bugs.
 ## Summary
 
@@ -50,7 +51,7 @@ Within "Exec Flags", the following strings will be replaced:
     - The line the cursor is currently on
   - `{col}`
     - The column the cursor is currently on
-
+```
 #### Examples - gVim
 
 ```
@@ -85,5 +86,3 @@ Exec Flags: {file}:{line}:{col}
 MIT - see [LICENSE](LICENSE) file.
 
 
-----
-[//]: # ( vim: set ts=4 sw=4 et cindent tw=80 ai si syn=markdown ft=markdown: )
